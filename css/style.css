@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    background: powderblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+:root{
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --very-dark-blue-mbg: hsl(217, 54%, 11%);
+    --very-dark-blue-cbg: hsl(216, 50%, 16%);
+    --very-dark-blue-li: #a5bad9;
+    --white: hsl(0, 0%, 100%);
+}
+
+.card-container{
+    max-width: 90rem;
+    width: 100%;
+    height: 50rem;
+    background: var(--very-dark-blue-mbg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    max-width: 17rem;
+    background: var(--very-dark-blue-cbg);
+    padding: 1.2rem;
+    border-radius: .5rem;
+}
+
+.card img{
+    max-width: 100%;
+    height: auto;
+    border-radius: .3rem;
+}
+
+h1{
+    color: var(--white);
+    line-height: 3rem;
+}
+
+p{
+    font-size: .9rem;
+    color: var(--very-dark-blue-li);
+    font-weight: 300;
+    line-height: 1.3rem;
+}
+
+.column2{
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem 0; 
+}
+
+.border-seperat{
+    border-bottom: 1px solid var(--very-dark-blue-li);
+    opacity: .3;
+    display: block;
+    width: 100%;
+}
+
+.icon-group{
+    color: #fff;
+}
